@@ -4,8 +4,12 @@
   "description": "testing getting something working with ci on azure",
   "main": "index.js",
   "scripts": {
+    "test": "jest",
     "start": "node app.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
 }
